@@ -1,0 +1,138 @@
+body{
+    background-color: #3D087B;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: repeat(7, 110px);
+    justify-content: center; 
+    
+}
+.item{
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.item1{
+    background-color: #3D087B;
+}
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cap{
+    width: 80px;
+    height: 80px;
+    background-color: #F6E2FF;
+    margin: 5px;
+    color: #8A11BF;
+    padding: 0px;
+    font-family: barlow;
+    
+    
+}
+.cap1{
+    background-color: white;  
+    
+}
+
+.cap5{
+    background-image: linear-gradient(
+        #CB52F8,
+        #FC5EFF
+    );
+    color: white;
+    font-size: 36px;
+}
+.time{
+    font-size: 36px;
+    position: relative;
+    top: -30px;
+}
+.time1{
+    font-size: 22px;
+}
+.time2{
+    font-size: 30px;
+}
+.item3{
+    grid-row: 2/5;
+    
+}
+.item4{
+    font-size: x-large;
+    color: #8E53F0 ;
+}
+.item5{
+    height: 60px;
+    color: white;
+    background-color: #9140B5;
+    font-size: x-large;
+}
+.item6{
+    grid-column: 2/3;
+    grid-row: 3/6;
+    background-image: url(./Component\ 30\ –\ 1.svg);
+    background-size: cover;
+    
+}
+.item7{
+    background-color: #3D087B;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(
+        to right,
+        rgb(250, 4, 250) 50%,
+        blue
+    );
+    position: relative;
+    top: -40px;
+}
+button:hover{
+    background-image: linear-gradient(
+        to left,
+        rgb(250, 4, 250) 50%,
+        blue
+    );
+}
+
+.item8{
+    grid-column: 2/3;
+    width: 250px;
+    background-color: #9140B5;
+    position: relative;
+    top: -40px;
+    left: -275px;
+}
+.text{
+    list-style-type: none;
+    font-size: 16px;
+    color: #F25CFE;
+}
+.text1{
+    font-weight: bolder;
+    text-align: center;
+}
+.box{
+    height: 70px ;
+    
+    margin: 8px;
+    display: flex;
+}
+select{
+    width: 200px;
+    padding: 10px;
+    
+}
+.child{
+    margin: 20px;
+}
