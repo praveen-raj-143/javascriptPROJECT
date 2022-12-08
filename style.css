@@ -45,19 +45,22 @@ body{
         #CB52F8,
         #FC5EFF
     );
-    color: white;
-    font-size: 36px;
+    color: white;    
 }
 .time{
     font-size: 36px;
+    margin-left: 15px;
     position: relative;
     top: -30px;
 }
 .time1{
     font-size: 22px;
+    position: relative;
+    top: -20px;
 }
 .time2{
     font-size: 30px;
+    color: #3D087B;
 }
 .item3{
     grid-row: 2/5;
