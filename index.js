@@ -3,10 +3,47 @@ function timer(){
     let hrs = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
+    let cho = hrs >= 12 ? "PM" : "AM";
+    let msg = document.getElementById("msg");
+    let msg1 = document.getElementById("msg1");
+    let msg2 = document.getElementById("msg2");
     // console.log(hrs, min, sec);
+    // if(hrs == 0){
+    //     hrs == 12;
+    // }
+    // if(hrs > 12){
+    //     hrs = hrs-12;
+    // }
+    if(hrs < 10){
+        hrs = "0"+hrs;
+    }
+    if(min < 10){
+        min = "0"+min;
+    }
+    if(sec < 10){
+        sec = "0"+ sec;
+    }
     document.getElementById("hour").innerHTML  = `${hrs} hours`
     document.getElementById("mint").innerHTML  = `${min} mins`
     document.getElementById("seco").innerHTML  = `${sec} secs`
+    document.getElementById("AM").innerHTML=`${cho}`
+    
+    if(hrs>=10 && hrs<=12){
+        msg.innerHTML="GRAB SOME HEALTHY BREAKFAST!!!"
+        msg1.innerHTML="GOOD MORNING!! WAKE UP !!"
+        msg2.src = "./"
+    }else if(hrs>=12 && hrs<=16){
+        msg.innerHTML="LET'S HAVE SOME LUNCH !!"
+        msg1.innerHTML="GOOD AFTERNOON!! TAKE SOME SLEEP!!"
+        msg2.src="./"
+    }else if(hrs>=16 && hrs<=20){
+        msg.innerHTML="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
+        msg1.innerHTML="GOOD EVENING !! "
+    }else{
+        msg.innerHTML="CLOSE YOUR EYES AND GO TO SLEEP  "
+        msg1.innerHTML="GOOD NIGHT !!"
+    }
+   
 }
 setInterval(timer, 1000);
 
@@ -49,3 +86,5 @@ btnElement.addEventListener("mouseenter",function(){
 btnElement.addEventListener("mouseleave",function(){
     btnElement.innerText="Set Alarm";
 })
+
+

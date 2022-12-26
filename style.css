@@ -1,6 +1,6 @@
 body{
     background-color: #3D087B;
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
 }
 .container{
@@ -143,4 +143,15 @@ select{
 }
 .child{
     margin: 20px;
+    color: #3D087B;
+    
+}
+
+.tie{
+    border: none;
+    color: #3D087B;
+    text-align: center;
+}
+#change{
+    font-size: 20px;
 }
