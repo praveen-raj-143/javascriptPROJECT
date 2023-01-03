@@ -84,7 +84,7 @@ body{
 .item6{
     grid-column: 2/3;
     grid-row: 3/6;
-    background-image: url(./morning.svg);
+    /* background-image: url(./sleep.svg); */
     background-size: cover;
     
 }
@@ -104,6 +104,7 @@ button{
     );
     position: relative;
     top: -40px;
+    cursor: pointer;
 }
 button:hover{
     background-image: linear-gradient(
