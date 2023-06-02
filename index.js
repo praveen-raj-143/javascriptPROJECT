@@ -4,7 +4,7 @@ function timer(){
     let hrs = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
-    let cho = hrs >= 12 ? "PM" : "AM";
+//     let cho = hrs >= 12 ? "PM" : "AM";
 
     let msg = document.getElementById("msg");
     let msg1 = document.getElementById("msg1");
