@@ -10,12 +10,12 @@ function timer(){
     let msg1 = document.getElementById("msg1");
     let msg2 = document.getElementById("msg2");
     // console.log(hrs, min, sec);
-    if(hrs == 0){
-            hrs == 12;
-        }
-        if(hrs > 12){
-            hrs = hrs-12;
-        }
+//     if(hrs == 0){
+//             hrs == 12;
+//         }
+//         if(hrs > 12){
+//             hrs = hrs-12;
+//         }
     if(hrs < 10){
         hrs = "0"+hrs;
     }
