@@ -4,18 +4,18 @@ function timer(){
     let hrs = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
-//     let cho = hrs >= 12 ? "PM" : "AM";
+    let cho = hrs >= 12 ? "PM" : "AM";
 
     let msg = document.getElementById("msg");
     let msg1 = document.getElementById("msg1");
     let msg2 = document.getElementById("msg2");
     // console.log(hrs, min, sec);
-//     if(hrs == 0){
-//             hrs == 12;
-//         }
-//         if(hrs > 12){
-//             hrs = hrs-12;
-//         }
+    if(hrs == 0){
+            hrs == 12;
+        }
+        if(hrs > 12){
+            hrs = hrs-12;
+        }
     if(hrs < 10){
         hrs = "0"+hrs;
     }
