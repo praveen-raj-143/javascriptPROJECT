@@ -156,3 +156,22 @@ select{
 #change{
     font-size: 20px;
 }
+@media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+    }
+    .item8{
+        left: 0px;
+        top:0px;
+    }
+    .item6{
+        height: 350px;
+    }
+    button{
+        top:0px;
+    }
+}
