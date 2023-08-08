@@ -35,7 +35,7 @@ function timer(){
             // msg.innerHTML="GRAB SOME HEALTHY BREAKFAST!!!"
             msg1.innerHTML="GOOD MORNING!! WAKE UP !!"
             // msg2.style.backgroundImage="url(morning.svg)"
-        }else if(hrs>=12 && hrs<=04 && cho==="PM"){
+        }else if(hrs>=01 || hrs<=04 && cho==="PM"){
             // msg.innerHTML="LET'S HAVE SOME LUNCH !!"
             msg1.innerHTML="GOOD AFTERNOON!!"
             // msg2.style.backgroundImage="url(lunch.svg)"
