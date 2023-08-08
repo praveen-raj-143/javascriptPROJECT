@@ -84,7 +84,7 @@ body{
 .item6{
     grid-column: 2/3;
     grid-row: 3/6;
-    /* background-image: url(./sleep.svg); */
+    background-image: url(./sleep.svg);
     background-size: cover;
     
 }
@@ -116,7 +116,7 @@ button:hover{
 
 .item8{
     grid-column: 2/3;
-    width: 250px;
+    width: 260px;
     background-color: #9140B5;
     position: relative;
     top: -40px;
