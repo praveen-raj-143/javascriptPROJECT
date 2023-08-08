@@ -32,22 +32,22 @@ function timer(){
 
     
         if(hrs>=06 && hrs<=12 && cho==="AM"){
-            msg.innerHTML="GRAB SOME HEALTHY BREAKFAST!!!"
+            // msg.innerHTML="GRAB SOME HEALTHY BREAKFAST!!!"
             msg1.innerHTML="GOOD MORNING!! WAKE UP !!"
-            msg2.style.backgroundImage="url(morning.svg)"
+            // msg2.style.backgroundImage="url(morning.svg)"
         }else if(hrs>=12 && hrs<=04 && cho==="PM"){
-            msg.innerHTML="LET'S HAVE SOME LUNCH !!"
-            msg1.innerHTML="GOOD AFTERNOON!! TAKE SOME SLEEP!!"
-            msg2.style.backgroundImage="url(lunch.svg)"
+            // msg.innerHTML="LET'S HAVE SOME LUNCH !!"
+            msg1.innerHTML="GOOD AFTERNOON!!"
+            // msg2.style.backgroundImage="url(lunch.svg)"
         }else if(hrs>=04 && hrs<=08 && cho==="PM"){
-            msg.innerHTML="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
+            // msg.innerHTML="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
             msg1.innerHTML="GOOD EVENING !! "
-            msg2.style.backgroundImage="url(lunch_image@2x.png)"
+            // msg2.style.backgroundImage="url(lunch_image@2x.png)"
         }
         else if(hrs>=08 && cho==="PM"){
-            msg.innerHTML="CLOSE YOUR EYES AND GO TO SLEEP  "
+            // msg.innerHTML="CLOSE YOUR EYES AND GO TO SLEEP  "
             msg1.innerHTML="GOOD NIGHT !!"
-            msg2.style.backgroundImage="url(sleep.svg)"
+            // msg2.style.backgroundImage="url(sleep.svg)"
         } 
     }
 setInterval(timer, 1000);
@@ -78,7 +78,7 @@ selectElement.addEventListener("change",function(event){
     btnElement.addEventListener("click",function(){
         output.innerText="Wake Up Time : " + event.target.selectedOptions[0].innerText;
         msg.innerHTML="GRAB SOME HEALTHY BREAKFAST!!!"
-        msg1.innerHTML="GOOD MORNING!! WAKE UP !!"
+        // msg1.innerHTML="GOOD MORNING!! WAKE UP !!"
         msg2.style.backgroundImage="url(morning.svg)"    
     })
 })
@@ -87,7 +87,7 @@ select1Element.addEventListener("change",function(event){
     btnElement.addEventListener("click",function(){
         output1.innerText="Lunch Time : " + event.target.selectedOptions[0].innerText;
         msg.innerHTML="LET'S HAVE SOME LUNCH !!"
-        msg1.innerHTML="GOOD AFTERNOON!! TAKE SOME SLEEP!!"
+        // msg1.innerHTML="GOOD AFTERNOON!! TAKE SOME SLEEP!!"
         msg2.style.backgroundImage="url(lunch.svg)"        
     
     })
@@ -97,7 +97,7 @@ select2Element.addEventListener("change",function(event){
     btnElement.addEventListener("click",function(){
         output2.innerText="Nap Time : " + event.target.selectedOptions[0].innerText;
         msg.innerHTML="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
-        msg1.innerHTML="GOOD EVENING !! "
+        // msg1.innerHTML="GOOD EVENING !! "
         msg2.style.backgroundImage="url(lunch_image@2x.png)"    
     })
 })
@@ -106,7 +106,7 @@ select3Element.addEventListener("change",function(event){
     btnElement.addEventListener("click",function(){
         output3.innerText="Night Time : " + event.target.selectedOptions[0].innerText;
         msg.innerHTML="CLOSE YOUR EYES AND GO TO SLEEP  "
-        msg1.innerHTML="GOOD NIGHT !!"
+        // msg1.innerHTML="GOOD NIGHT !!"
         msg2.style.backgroundImage="url(sleep.svg)"    
     })
 })
